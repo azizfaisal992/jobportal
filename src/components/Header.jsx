@@ -57,7 +57,6 @@ const Header = () => {
             <ul className="hidden lg:flex space-x-8 items-center">
               {[
                 { label: 'Home', to: '/' },
-                
                 { label: 'Build Profile', to: '/build-profile' },
                 { label: 'Incoming Requests', to: '/incoming-requests' },
                 { label: 'Notifications', to: '/notifications' },
