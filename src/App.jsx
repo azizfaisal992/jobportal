@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import BuildProfile from './pages/BuildProfile'
 import ContactUs from './pages/Contactus'
+import IncomingRequests from './pages/IncomingRequests'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/build-profile" element={<BuildProfile />} />
+        <Route path="/incoming-requests" element={<IncomingRequests />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />
